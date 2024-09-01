@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.pic{   
+    width: 270px;
+    border-radius: 10px;
+}
+.content{
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    bottom: 60px;
+}
+
+.per{
+    position: relative;
+    bottom: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: hsl(228, 12%, 48%);
+}
+.tit{
+    position: relative;
+    bottom: 50px;
+    word-spacing: 2px;
+    font-family: "Fraunces", serif;
+    font-weight: 900px;
+    color: hsl(212, 21%, 14%);
+    font-size: 1.5rem;
+}
+.para{
+    position: relative;
+    bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color:hsl(228, 12%, 48%) ;
+    font-weight: 600;
+}
+
+.ori-rate{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    color: hsl(158, 36%, 37%);
+    font-weight: 600;
+}
+.dupl-rate{
+    font-family: "Fraunces", serif;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    bottom: 10px;
+    color:hsl(228, 12%, 48%) ;
+    left: 20px;
+    text-decoration:line-through;
+}
+.btn{
+    position: relative;
+    background-color: hsl(158, 36%, 37%);
+    top: 30px;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    border-style: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;;
+    color: white;
+    font-weight: 500;
+}
+.btn svg{
+    margin-right:3px;
+}
+
+
+@media screen and (max-width: 580px) {
+    .pic{
+        content: url(./images/image-product-mobile.jpg);
+        justify-content: center;
+        position: relative;
+        left: 20%;
+        top: 10%;
+    }
+    .container{
+        border-radius: 10px;
+        height: 700px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .content{
+        display: inline-block;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        left: 80px;
+        margin-top: 44%;
+
+    }
+  }
+  
+
+
